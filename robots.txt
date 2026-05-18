@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://campus-ai.leisurecampus.com/sitemap.xml
+
+# Block crawling of localStorage data (not applicable, but good practice)
+Disallow: /api/

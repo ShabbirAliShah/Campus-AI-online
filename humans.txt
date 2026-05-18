@@ -1,0 +1,19 @@
+/* TEAM */
+Developer & Founder: Syed Shabbir Jan
+Organisation:        Leisure Campus — Education Equity Initiative
+Location:            Chitral, Pakistan
+Contact:             +92 3401195995
+Twitter:             @LeisureCampus
+Founded:             2019
+
+/* SITE */
+Name:          Campus AI
+Version:       3.0.0
+Last Updated:  2025-05-01
+Technologies:  HTML5, CSS3, Vanilla JS, Web APIs (Groq, Gemini, OpenRouter, Pollinations.ai)
+Software:      No framework · No build step · Pure static site
+Hosted on:     Netlify / Vercel
+
+/* MISSION */
+Bridging the educational divide for students in remote regions.
+Free AI tools, offline-first technology, and community empowerment.

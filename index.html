@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    <!-- ═══ CHARSET & VIEWPORT ═══ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ═══ PRIMARY SEO ═══ -->
+    <title>Campus AI — Free AI Chat, Code & Image Generation for Students</title>
+    <meta name="description" content="Campus AI is a free, browser-based AI assistant for students and educators. Chat with powerful AI models (Groq, Gemini, OpenRouter), generate images, get help with code, essays, math, and science — no download required.">
+    <meta name="keywords" content="Campus AI, free AI chat, AI for students, AI assistant, Groq AI, Gemini AI, OpenRouter, free chatbot, AI image generation, education AI, Leisure Campus, Syed Shabbir Jan, Chitral, Pakistan">
+    <meta name="author" content="Syed Shabbir Jan — Leisure Campus">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#131314">
+    <link rel="canonical" href="https://campus-ai.leisurecampus.com/">
+
+    <!-- ═══ OPEN GRAPH (Facebook, LinkedIn, WhatsApp) ═══ -->
+    <meta property="og:type"        content="website">
+    <meta property="og:site_name"   content="Campus AI">
+    <meta property="og:title"       content="Campus AI — Free AI Chat & Image Generation for Students">
+    <meta property="og:description" content="Free browser-based AI assistant powered by Groq, Gemini & OpenRouter. Chat, generate images, get help with code, essays, math and science. No login required.">
+    <meta property="og:url"         content="https://campus-ai.leisurecampus.com/">
+    <meta property="og:image"       content="https://campus-ai.leisurecampus.com/og-image.png">
+    <meta property="og:image:width"  content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt"   content="Campus AI — Free AI Chat for Students">
+    <meta property="og:locale"      content="en_US">
+
+    <!-- ═══ TWITTER / X CARD ═══ -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:site"        content="@LeisureCampus">
+    <meta name="twitter:creator"     content="@LeisureCampus">
+    <meta name="twitter:title"       content="Campus AI — Free AI Chat & Image Generation for Students">
+    <meta name="twitter:description" content="Free browser-based AI assistant. Chat, generate images, code help, math, essays — powered by Groq, Gemini & OpenRouter. No login needed.">
+    <meta name="twitter:image"       content="https://campus-ai.leisurecampus.com/og-image.png">
+    <meta name="twitter:image:alt"   content="Campus AI — Free AI Chat for Students">
+
+    <!-- ═══ SCHEMA.ORG JSON-LD ═══ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://campus-ai.leisurecampus.com/#webapp",
+          "name": "Campus AI",
+          "url": "https://campus-ai.leisurecampus.com/",
+          "description": "Free browser-based AI assistant for students. Powered by Groq, Google Gemini and OpenRouter. Chat, generate images, get help with code, essays, math and science.",
+          "applicationCategory": "EducationApplication",
+          "operatingSystem": "Any",
+          "browserRequirements": "Requires JavaScript. Works in all modern browsers.",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+          "creator": {
+            "@type": "Organization",
+            "name": "Leisure Campus",
+            "url": "https://leisurecampus.com",
+            "founder": { "@type": "Person", "name": "Syed Shabbir Jan" }
+          },
+          "featureList": [
+            "Multi-model AI chat (Groq, Gemini, OpenRouter)",
+            "AI image generation (Pollinations.ai, Hugging Face)",
+            "Subject presets: Code, Essay, Math, Science",
+            "Markdown rendering with code highlighting",
+            "Chat history with export",
+            "Saved responses / bookmarks",
+            "No login required"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://leisurecampus.com/#org",
+          "name": "Leisure Campus",
+          "url": "https://leisurecampus.com",
+          "logo": "https://campus-ai.leisurecampus.com/logo.png",
+          "sameAs": ["https://twitter.com/LeisureCampus"],
+          "founder": { "@type": "Person", "name": "Syed Shabbir Jan", "telephone": "+923401195995" },
+          "foundingDate": "2019",
+          "description": "Digital educational platform bridging the technology divide for students in remote regions.",
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "Is Campus AI free to use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Campus AI is completely free to use in your browser. You can optionally add your own free API keys from Groq, Google Gemini, or OpenRouter to use different AI models." } },
+            { "@type": "Question", "name": "Do I need to create an account?", "acceptedAnswer": { "@type": "Answer", "text": "No account or login is required. Just open the website and start chatting." } },
+            { "@type": "Question", "name": "How do I generate images?", "acceptedAnswer": { "@type": "Answer", "text": "Type /imagine followed by your description in the chat box, or click the 🖼 button. Images are generated free via Pollinations.ai." } },
+            { "@type": "Question", "name": "Which AI models does Campus AI support?", "acceptedAnswer": { "@type": "Answer", "text": "Campus AI supports Groq (Llama 3.3, Mixtral, Gemma 2, DeepSeek R1), Google Gemini (2.0 Flash, 1.5 Pro), and OpenRouter free models (Qwen 3, Mistral, Phi-4 and more)." } }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- ═══ PWA / ICONS ═══ -->
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Campus AI">
+
+    <!-- ═══ PRECONNECT (performance) ═══ -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://api.groq.com">
+    <link rel="preconnect" href="https://openrouter.ai">
+    <link rel="preconnect" href="https://generativelanguage.googleapis.com">
+    <link rel="preconnect" href="https://image.pollinations.ai">
+
+    <!-- ═══ marked.js (markdown renderer) ═══ -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@9/marked.min.js" defer></script>
+
+    <!-- ═══ GOOGLE ANALYTICS (replace UA with your Measurement ID) ═══ -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- ═══════════════════════════════════════════
+     COOKIE CONSENT BANNER
+═══════════════════════════════════════════ -->
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <span>🍪 We store your chat history and API keys <strong>only in your browser</strong> (localStorage). No server-side tracking. <a href="#" id="terms-menu-btn-cookie" style="color:var(--accent)">Learn more</a></span>
+    <div class="cookie-actions">
+        <button class="cookie-btn" id="cookie-accept">Got it</button>
+    </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     MOBILE SIDEBAR OVERLAY
+═══════════════════════════════════════════ -->
+<div id="sidebar-overlay" aria-hidden="true"></div>
+
+<!-- ═══════════════════════════════════════════
+     SIDEBAR
+═══════════════════════════════════════════ -->
+<aside id="sidebar" role="complementary" aria-label="Navigation sidebar">
+    <div class="sidebar-top">
+
+        <div class="brand-row">
+            <a class="brand-section" href="/" aria-label="Campus AI home" title="Campus AI">
+                <span aria-hidden="true">✦</span> Campus AI
+            </a>
+            <div class="health-wrap" title="Active AI provider status">
+                <span class="health-dot" id="health-dot" aria-hidden="true"></span>
+                <span class="health-label" id="health-label">Ready</span>
+            </div>
+        </div>
+
+        <button class="new-chat-btn" id="new-chat-btn" aria-label="Start new chat">
+            <span aria-hidden="true">+</span> New Chat
+        </button>
+
+        <!-- Subject preset -->
+        <div class="preset-row">
+            <label for="preset-select" class="sr-only">Subject preset</label>
+            <select class="preset-select" id="preset-select" aria-label="Choose subject mode">
+                <option value="general">🎓 General Assistant</option>
+                <option value="code">💻 Code Helper</option>
+                <option value="essay">✍️ Essay Reviewer</option>
+                <option value="math">📐 Math Tutor</option>
+                <option value="science">🔬 Science Guide</option>
+            </select>
+        </div>
+
+        <!-- Provider badge -->
+        <div class="provider-badge" id="provider-badge" role="status" aria-live="polite">
+            <span class="provider-dot" aria-hidden="true">●</span>
+            <span id="provider-badge-label">Select a provider</span>
+            <button class="provider-change-btn" id="open-provider-btn" aria-label="Change AI provider and model">⚙</button>
+        </div>
+
+        <div class="history-title" aria-label="Recent chats">Recent Chats</div>
+        <nav aria-label="Chat history">
+            <div class="history-container" id="history-list"></div>
+        </nav>
+    </div>
+
+    <div class="sidebar-bottom">
+        <div class="dev-card">
+            <div class="dev-title">Syed Shabbir Jan</div>
+            <div>Education Equity Initiative</div>
+            <div style="color:var(--text-sub);margin-top:4px;font-size:12px;">
+                <a href="tel:+923401195995" style="color:var(--text-sub);text-decoration:none;">+92 3401195995</a>
+            </div>
+        </div>
+        <div class="sidebar-footer-links">
+            <a href="#" id="terms-link-sidebar">Terms</a>
+            <a href="#" id="privacy-link-sidebar">Privacy</a>
+            <a href="#" id="about-link-sidebar">About</a>
+        </div>
+        <div style="color:var(--text-sub);font-size:10px;line-height:1.5;">
+            v3.0 · Free to use · No login required
+        </div>
+    </div>
+</aside>
+
+<!-- ═══════════════════════════════════════════
+     MAIN
+═══════════════════════════════════════════ -->
+<main id="main-content" role="main">
+
+    <!-- Mobile top bar -->
+    <div class="mobile-topbar">
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open sidebar" aria-controls="sidebar" aria-expanded="false">☰</button>
+        <span class="mobile-title">✦ Campus AI</span>
+        <button class="icon-btn" id="mobile-new-chat-btn" aria-label="New chat" style="font-size:18px;">+</button>
+    </div>
+
+    <header id="chat-header" role="banner">
+        <span id="header-title">New Conversation</span>
+        <div class="header-actions" role="toolbar" aria-label="Chat actions">
+            <div class="ctx-wrap" title="Context window usage" aria-label="Context usage">
+                <span class="ctx-label" aria-hidden="true">CTX</span>
+                <div class="ctx-bar-bg" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Context usage">
+                    <div class="ctx-bar-fill" id="ctx-bar-fill"></div>
+                </div>
+                <span class="ctx-pct" id="ctx-pct" aria-live="polite">0%</span>
+            </div>
+            <button class="icon-btn" id="export-btn" title="Export chat as TXT" aria-label="Export chat">⬇</button>
+            <button class="icon-btn" id="bookmarks-btn" title="Saved responses" aria-label="Saved responses">☆</button>
+            <button class="icon-btn" id="settings-btn" title="Model settings" aria-label="Model settings">⚙</button>
+            <div class="menu-container">
+                <button class="menu-btn" id="menu-toggle" aria-label="More options" aria-haspopup="true" aria-expanded="false">⋮</button>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu" aria-label="More options">
+                    <button class="dropdown-item" role="menuitem" id="terms-menu-btn">Terms of Service</button>
+                    <button class="dropdown-item" role="menuitem" id="privacy-menu-btn">Privacy Policy</button>
+                    <button class="dropdown-item" role="menuitem" id="about-menu-btn">About Us</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Status bar -->
+    <div class="token-bar" role="status" aria-live="polite" aria-label="AI status">
+        <div class="token-stat"><span>Provider:</span><span id="active-provider-label">—</span></div>
+        <div class="token-stat"><span>Model:</span><span id="active-model-label">—</span></div>
+        <div class="token-stat"><span>Prompt:</span><span id="prompt-tokens">0</span></div>
+        <div class="token-stat"><span>Generated:</span><span id="gen-tokens">0</span></div>
+        <div class="token-stat"><span>Mode:</span><span id="preset-label">General</span></div>
+    </div>
+
+    <!-- ─── WELCOME HERO (shown on first visit) ─── -->
+    <section id="welcome-hero" aria-label="Welcome to Campus AI" hidden>
+        <div class="hero-inner">
+            <div class="hero-logo" aria-hidden="true">✦</div>
+            <h1 class="hero-title">Campus AI</h1>
+            <p class="hero-sub">Free AI assistant for students &amp; educators.<br>Chat, generate images, get help with code, essays, math &amp; science.</p>
+            <div class="hero-features" role="list">
+                <div role="listitem"><span aria-hidden="true">🖼</span> <strong>Free image generation</strong><br><small>No account needed</small></div>
+                <div role="listitem"><span aria-hidden="true">⚡</span> Groq · Gemini · OpenRouter<br><small>Free API keys available</small></div>
+                <div role="listitem"><span aria-hidden="true">🎓</span> 5 subject presets<br><small>Code, Math, Science…</small></div>
+                <div role="listitem"><span aria-hidden="true">🔒</span> No login required<br><small>Data stays in your browser</small></div>
+            </div>
+            <button class="hero-cta" id="hero-start-btn" aria-label="Generate image free">🖼 Generate an Image — No Key Needed</button>
+            <p class="hero-note">Image generation is instant &amp; free. For AI chat, add a free API key. <button class="hero-link" id="hero-setup-btn">Setup guide →</button></p>
+        </div>
+    </section>
+
+    <!-- CHAT INTERFACE -->
+    <div id="chat-interface" style="display:none;">
+        <div id="chat-window" role="log" aria-label="Chat messages" aria-live="polite">
+            <div id="chat-feed"></div>
+        </div>
+
+        <div class="input-footer" role="form" aria-label="Send a message">
+            <div class="input-meta-row">
+                <button class="stop-btn" id="stop-btn" aria-label="Stop generation">■ Stop</button>
+                <span class="char-count" id="char-count" aria-live="polite">0 chars</span>
+            </div>
+            <div class="input-container" id="input-container">
+                <button class="img-gen-btn" id="img-gen-btn" title="Generate image — type /imagine …" aria-label="Generate image">🖼</button>
+                <label for="user-input" class="sr-only">Type your message</label>
+                <textarea id="user-input" rows="1"
+                    placeholder="Ask anything… or /imagine a mountain at sunset"
+                    aria-label="Message input" aria-multiline="true"
+                    autocomplete="off" spellcheck="true"></textarea>
+                <button class="send-btn" id="send-btn" aria-label="Send message">↑</button>
+            </div>
+            <div class="input-hint" aria-hidden="true">Enter to send · Shift+Enter new line · /imagine &lt;prompt&gt; for images · ↑↓ prompt history</div>
+        </div>
+    </div>
+
+    <!-- ═══ PROVIDER / MODEL DRAWER ═══ -->
+    <div id="provider-drawer" class="drawer" style="display:none;" role="dialog" aria-modal="true" aria-label="AI provider settings">
+        <div class="drawer-card">
+            <div class="drawer-header">
+                <div class="drawer-title">🔌 AI Providers &amp; Models</div>
+                <button class="back-btn" id="provider-close-btn" aria-label="Close provider settings">✕</button>
+            </div>
+
+            <p class="setting-desc" style="margin-bottom:4px;">Choose a provider, paste your free API key, and pick a model. Keys stay in your browser only.</p>
+
+            <div class="provider-tabs" id="provider-tabs" role="tablist" aria-label="AI providers"></div>
+
+            <div class="setting-group" style="margin-top:4px;">
+                <label class="setting-label" for="model-select">Model</label>
+                <select class="preset-select" id="model-select" style="margin-top:6px;" aria-label="Select model"></select>
+                <div class="setting-desc" id="model-desc" style="margin-top:6px;"></div>
+            </div>
+
+            <div id="api-key-group" class="setting-group" style="display:none;">
+                <label class="setting-label" for="api-key-input">API Key</label>
+                <div class="api-key-row">
+                    <input type="password" class="license-input" id="api-key-input"
+                           placeholder="Paste your API key here…" style="margin-bottom:0;"
+                           autocomplete="off" aria-label="API key">
+                    <button class="copy-btn" id="api-key-toggle" style="padding:8px 12px;" aria-label="Show/hide API key">Show</button>
+                </div>
+                <div class="setting-desc">Stored in your browser only. Never sent to our servers.</div>
+                <a class="api-link" id="api-get-link" href="#" target="_blank" rel="noopener noreferrer">→ Get a free API key</a>
+            </div>
+
+            <div class="drawer-section-title">🖼 Image Generation</div>
+            <div class="provider-tabs" id="img-provider-tabs" role="tablist" aria-label="Image providers"></div>
+            <div id="img-api-key-group" class="setting-group" style="display:none;">
+                <label class="setting-label" for="img-api-key-input">Image API Key</label>
+                <div class="api-key-row">
+                    <input type="password" class="license-input" id="img-api-key-input"
+                           placeholder="Paste image API key…" style="margin-bottom:0;"
+                           autocomplete="off" aria-label="Image API key">
+                    <button class="copy-btn" id="img-api-key-toggle" style="padding:8px 12px;" aria-label="Show/hide image API key">Show</button>
+                </div>
+                <a class="api-link" id="img-api-link" href="#" target="_blank" rel="noopener noreferrer">→ Get a free API key</a>
+            </div>
+
+            <button class="new-chat-btn" id="provider-save-btn" style="margin-top:8px;">✓ Save &amp; Apply</button>
+            <div class="disclaimer" id="provider-status-msg" style="margin-top:8px;" role="alert" aria-live="polite"></div>
+        </div>
+    </div>
+
+    <!-- ═══ SETTINGS DRAWER ═══ -->
+    <div id="settings-drawer" class="drawer" style="display:none;" role="dialog" aria-modal="true" aria-label="Model settings">
+        <div class="drawer-card">
+            <div class="drawer-header">
+                <div class="drawer-title">⚙ Generation Settings</div>
+                <button class="back-btn" id="settings-close-btn" aria-label="Close settings">✕</button>
+            </div>
+            <div class="setting-group">
+                <label class="setting-label" for="s-temperature">Temperature <span class="setting-val" id="temp-val">0.7</span></label>
+                <input type="range" class="setting-slider" id="s-temperature" min="0" max="2" step="0.05" value="0.7" aria-label="Temperature">
+                <div class="setting-desc">Higher = more creative. Lower = more precise and factual.</div>
+            </div>
+            <div class="setting-group">
+                <label class="setting-label" for="s-max-tokens">Max Tokens <span class="setting-val" id="tokens-val">1024</span></label>
+                <input type="range" class="setting-slider" id="s-max-tokens" min="128" max="4096" step="64" value="1024" aria-label="Max tokens">
+                <div class="setting-desc">Maximum response length in tokens (~¾ of a word each).</div>
+            </div>
+            <div class="setting-group">
+                <label class="setting-label" for="s-top-p">Top-P <span class="setting-val" id="topp-val">0.9</span></label>
+                <input type="range" class="setting-slider" id="s-top-p" min="0.1" max="1" step="0.05" value="0.9" aria-label="Top-P">
+                <div class="setting-desc">Nucleus sampling — controls output diversity.</div>
+            </div>
+            <button class="new-chat-btn" id="settings-reset-btn" style="margin-top:8px;" aria-label="Reset to defaults">↺ Reset Defaults</button>
+        </div>
+    </div>
+
+    <!-- ═══ BOOKMARKS DRAWER ═══ -->
+    <div id="bookmarks-drawer" class="drawer" style="display:none;" role="dialog" aria-modal="true" aria-label="Saved responses">
+        <div class="drawer-card">
+            <div class="drawer-header">
+                <div class="drawer-title">☆ Saved Responses</div>
+                <button class="back-btn" id="bookmarks-close-btn" aria-label="Close bookmarks">✕</button>
+            </div>
+            <div id="bookmarks-list">
+                <div class="empty-state">No saved responses yet.<br>Click ☆ on any AI bubble to save it.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ TERMS PAGE ═══ -->
+    <div id="terms-page" class="sub-page" role="dialog" aria-modal="true" aria-label="Terms of Service">
+        <div class="sub-card">
+            <div class="sub-card-header">
+                <div class="sub-card-title">Terms of Service</div>
+                <button class="back-btn" id="terms-back-btn" aria-label="Back to chat">← Back</button>
+            </div>
+            <div class="section-heading">Usage Agreement</div>
+            <div class="section-content">Campus AI is a free educational tool. AI-generated answers may be incorrect. Always verify important information before relying on it academically or professionally.</div>
+            <div class="section-heading">Third-Party AI Providers</div>
+            <div class="section-content">When you add a Groq, Gemini, or OpenRouter API key, your messages are sent directly from your browser to that provider. We do not proxy or store your messages. Review each provider's privacy policy before use.</div>
+            <div class="section-heading">API Keys</div>
+            <div class="section-content">Your API keys are stored <strong>only in your browser's localStorage</strong>. We never collect, transmit, or see your API keys. Clearing browser data removes them.</div>
+            <div class="section-heading">Acceptable Use</div>
+            <div class="section-content">Do not use Campus AI to generate harmful, illegal, or misleading content. This service is intended for educational purposes.</div>
+            <div class="section-heading">Liability</div>
+            <div class="section-content">Campus AI is provided "as is" with no warranties. The developer and Leisure Campus are not liable for any consequences arising from use of this service or its AI-generated outputs.</div>
+            <div class="section-heading">Contact</div>
+            <div class="section-content">Questions? Contact <a href="tel:+923401195995" style="color:var(--accent)">+92 3401195995</a> or reach out via Leisure Campus official channels.</div>
+        </div>
+    </div>
+
+    <!-- ═══ PRIVACY PAGE ═══ -->
+    <div id="privacy-page" class="sub-page" role="dialog" aria-modal="true" aria-label="Privacy Policy">
+        <div class="sub-card">
+            <div class="sub-card-header">
+                <div class="sub-card-title">Privacy Policy</div>
+                <button class="back-btn" id="privacy-back-btn" aria-label="Back to chat">← Back</button>
+            </div>
+            <div class="section-heading">Data We Collect</div>
+            <div class="section-content"><strong>Nothing.</strong> Campus AI does not collect, store, or transmit any personal data to our servers. There is no user account system.</div>
+            <div class="section-heading">What Stays in Your Browser</div>
+            <div class="section-content">The following is stored in your browser's <code>localStorage</code> only and never leaves your device: your chat history, API keys, generation settings, and bookmarks. Clearing your browser data removes all of this.</div>
+            <div class="section-heading">Third-Party API Providers</div>
+            <div class="section-content">When you send a message using a cloud provider (Groq, Gemini, OpenRouter), your message is sent directly from your browser to that provider's API. Their respective privacy policies apply. We do not act as an intermediary or store your messages.</div>
+            <div class="section-heading">Image Generation</div>
+            <div class="section-content">Image prompts sent to Pollinations.ai or Hugging Face are subject to their respective privacy policies.</div>
+            <div class="section-heading">Cookies &amp; Analytics</div>
+            <div class="section-content">We use localStorage (not cookies) for preferences. If Google Analytics is enabled on this deployment, anonymized usage data may be collected per Google's privacy policy. No personally identifiable information is sent.</div>
+            <div class="section-heading">Contact</div>
+            <div class="section-content">Privacy questions: <a href="tel:+923401195995" style="color:var(--accent)">+92 3401195995</a></div>
+            <div class="disclaimer" style="margin-top:16px;">Last updated: May 2025</div>
+        </div>
+    </div>
+
+    <!-- ═══ ABOUT PAGE ═══ -->
+    <div id="about-page" class="sub-page" role="dialog" aria-modal="true" aria-label="About Campus AI">
+        <div class="sub-card">
+            <div class="sub-card-header">
+                <div style="display:flex;align-items:center;gap:12px;">
+                    <div class="hero-logo" style="width:48px;height:48px;font-size:24px;border-radius:12px;background:var(--accent);color:#111;display:flex;align-items:center;justify-content:center;">✦</div>
+                    <div class="sub-card-title">About Campus AI</div>
+                </div>
+                <button class="back-btn" id="about-back-btn" aria-label="Back to chat">← Back</button>
+            </div>
+            <div class="section-heading">What is Campus AI?</div>
+            <div class="section-content">Campus AI is a free, browser-based AI assistant built for students and educators worldwide. It requires no account or installation — just open the page and start chatting.</div>
+            <div class="section-heading">Welcome to Leisure Campus</div>
+            <div class="section-content">Founded in 2019 by <strong>Syed Shabbir Jan</strong> in Chitral, Pakistan, Leisure Campus is a digital educational platform built to bridge the technology divide for students in remote regions. We build tools that work with or without reliable internet.</div>
+            <div class="section-heading">Our Mission</div>
+            <div class="section-content">To empower students in underserved communities with free, accessible technology — ensuring that geography or connectivity should never limit access to quality education.</div>
+            <div class="section-heading">Our Products</div>
+            <div class="section-content"><strong>Campus AI:</strong> Free web-based AI assistant powered by Groq, Gemini, and OpenRouter.</div>
+            <div class="section-content"><strong>Leisure Campus App:</strong> Connects students with teachers and mentors for coaching and academic guidance.</div>
+            <div class="section-content"><strong>Khowar Digital Dictionary:</strong> Linguistic resource preserving the Khowar language with audio pronunciations.</div>
+            <div class="section-content"><strong>Local Internet (Mesh Wi-Fi):</strong> Distributes educational resources across communities without a global uplink.</div>
+            <div class="section-heading">Contact</div>
+            <div class="section-content">
+                <a href="tel:+923401195995" style="color:var(--accent);">📞 +92 3401195995</a>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
